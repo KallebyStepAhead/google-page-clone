@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/x-icon" href="/assets/favicon.svg">
-
+  <link rel="stylesheet" href="style.css">
+  
   <title>Google</title>
 </head>
 <body>
@@ -18,17 +19,23 @@
   </header>
 
   <main>
-    <img src="./assets/logo.png" alt="Google logo">
-
-    <div>
-      <img src="./assets/search.png" alt="Search icon"/>
-      
-      <input type="text" name="search" id="search-bar">
-      
-      <img src="./assets/google-voice.png" alt="Search by voice">
+    <div class="logo-box">
+      <img src="./assets/logo.png" alt="Google logo">
     </div>
 
-    <div>
+    <div class="search-box">
+      <div>
+        <img src="./assets/search.png" alt="Search icon"/>
+      </div>
+      
+      <input type="text" name="search" id="search">
+      
+      <div>
+        <img src="./assets/google-voice.png" alt="Search by voice">
+      </div>
+    </div>
+
+    <div class="buttons-box">
       <button>Google Search</button>
       <button>Google I'm Feeling Lucky</button>
     </div>
@@ -39,11 +46,11 @@
   </main>
 
   <footer>
-    <div>
+    <div class="footer-region">
       <p>Portugal</p>
     </div>
 
-    <div>
+    <div class="footer-links">
       <a href="#">About</a>
       <a href="#">Advertising</a>
       <a href="#">Business</a>
